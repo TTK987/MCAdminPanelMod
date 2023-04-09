@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "adminpanel",
+  "version": "${version}",
+  "name": "AdminPanel",
+  "description": "A panel for administrators",
+  "authors": [
+    "TTK987"
+  ],
+  "contact": {
+    "website": "https://github.com/TTK987",
+    "repo": "https://github.com/PC/AdminPanel"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/AdminPanel/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.ttk987.adminpanel.client.AdminPanelClient"
+    ],
+    "main": [
+      "me.ttk987.adminpanel.AdminPanel"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
